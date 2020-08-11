@@ -59,6 +59,7 @@ div#divMensagemDeErro {
     margin-right: auto;
     border-radius: 10px;
     color: #ffffff;
+    padding: 10px;
 }
 
 div#divUsuarioLogado {
@@ -142,4 +143,44 @@ th {
 
 td {
     padding: 3px;
+}
+
+div#divCategoriasDeComidaOpcao {
+    height: 130px;
+    float: left;
+}
+
+div#divCategoriasComidaGeral {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+img#imgCategoriaComida {
+    height: 50px;
+}
+
+fieldset#fieldsetFiltros {
+    border-width: 3px;
+}
+
+input#inputSelecionado {
+    background-color: #69c5ee;
+    border-color: #1e9bde;
+}
+
+img#imgRestauranteOpcao {
+    height: 130px;
+}
+
+span#restauranteOpcaoTitulo {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div#divRestauranteOpcao {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
 }

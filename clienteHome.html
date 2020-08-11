@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
     <title>BlueFood</title>
@@ -25,7 +25,7 @@
 
     <div>
         <h1>É hora de rangar!</h1>
-        <form method="POST" action="">
+        <form method="POST" action="clienteBusca.html">
             <fieldset id="fieldsetFiltros">
                 <input type="text" name="busca" placeholder="Buscar por..."/>
                 <input type="button" value="Procurar"/>
@@ -77,23 +77,24 @@
 
     <div>
         <h1>Cupons disponíveis</h1>
-        <input type="button" value="10% Hamburguer"/><br/>
-        <input type="button" value="15% Pizza"/><br/>
+        <input type="button" value="10% Hamburguer" onClick="location.href='clienteBusca.html';"/><br/>
+        <input type="button" value="15% Pizza" onClick="location.href='clienteBusca.html';"/><br/>
     </div>
 
     <div>
         <h1>Últimos pedidos</h1>
-        <input type="button" value="#15124 McBlunalds"/><br/>
-        <input type="button" value="#35464 Blue Pizza"/><br/>
-        <input type="button" value="#38754 Hand Blue"/><br/>
+        <input type="button" value="#15124 McBlunalds" onClick="location.href='clientePedido.html';"/><br/>
+        <input type="button" value="#35464 Blue Pizza" onClick="location.href='clientePedido.html';"/><br/>
+        <input type="button" value="#38754 Hand Blue" onClick="location.href='clientePedido.html';"/><br/>
     </div>
 
     <div>
         <h1>Conta</h1>
-        <input type="button" value="Meus dados"/><br/>
-        <input type="button" value="Sair"/><br/>
+        <input type="button" value="Meus dados" onClick="location.href='clienteCadastro.html';"/>
+        <input type="button" value="Sair" onClick="location.href='index.html';"/>
     </div>
 
     <!-- Rodapé - Início -->
+    <br/><br/>
 </body>
 </html>
